@@ -1,0 +1,59 @@
+import UIKit
+
+var str = "Hello, playground"
+
+//String -  Integer -  Double
+
+// yorum satýrý , tek satrlk
+
+/* YORUMUNUZ
+
+ BURAYA
+
+ GELECEK
+
+ */
+
+//Swift 4 ile Stringler
+
+var k = 3 // k yý sabit bir deðere atadýnýz
+
+k = 4 // let sabit deðer tanýmlarken kullanýlýr
+
+//var deðer deðiþken olacaksa kullanýlýr
+
+//String nedir
+
+let kelime = "Kerim"
+
+var cumle = """
+
+Türkçe
+
+Swift
+
+Programlama
+
+Derslerine
+
+Hoþgeldiniz
+
+"""
+
+print(cumle)
+
+//Swift 3 harf sayýsý bulma
+
+cumle.characters.count
+
+//Swift 4 harf sayýsý bulma
+
+cumle.count
+
+var x = 3 // tamsayý, integer (Int)
+
+var y = 4.2 //Ondalýklý sayý, double (Double)
+
+var z = x +  Int(y) //Ayný tiplerle iþlem yapar
+
+//Casting x -> integer biz Double gibi davranmasýný saðlayalým
